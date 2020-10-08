@@ -15,6 +15,7 @@ h1 {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 10px;
+  opacity: 60%;
 }
 .ghosts {
   display: flex;
