@@ -1,14 +1,14 @@
 body {
-  background-color: #a7a6ba;
+  background-color: #666699;
 }
 h1 {
   text-align: center;
   font-family: 'Press Start 2P', cursive;
   font-size: 14px;
   weight: 100;
-  color: #333;
+  color: #000;
   opacity: 50%;
-  text-shadow: white 3px 3px 3px;
+  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
 }
 #count {
   font-family: 'Press Start 2P', cursive;
@@ -16,6 +16,7 @@ h1 {
   padding-top: 100px;
   padding-bottom: 10px;
   opacity: 60%;
+  text-shadow: 3px 3px 3px rgba(255, 255, 255, 0.4);
 }
 .ghosts {
   display: flex;
@@ -65,3 +66,8 @@ img {
       30% {opacity: 0%}
      100% {opacity: 30%}
  }
+.counter {
+  height: 15px;
+  position: fixed;
+  bottom: px;
+}
